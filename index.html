@@ -11,23 +11,36 @@
     <img src="citizenScientist.jpg" class="bigpic"/>
   </div>
 
+
   <h1 align = "center" style = "background-color:rgb(12, 208, 255);" border: 2px width="500px" height="400px">
   </h1>
 
 
 
-  <h3>
+  <!-- <h3>
     <div class="doctorgroup">
-      <img src="doctorgroup.jpg" display="inline">
+      <img src="doctorgroup.jpg" display="inline" width="50%" height="50%">
       <img src="aboutus.jpg" display="inline" width="250" height="250">
     </div>
-  </h3>
+  </h3> -->
+
+  <!-- Login Button -->
+  <a href="https://facebook.com" >
+  <div class="loginButton">Login/Sign Up</div>
+  </a>
+
+  <div id=column2><h2><b> About us<b> </h2><p><i>
+    The goal of Citizen Scientist is to gamify and democratize scientific research by
+    providing a curated news feed of relevant medical knowledge and clinical trials to
+    patients around the globe. We strive to empower human beings to make their own health-conscious decisions. We believe that access to such knowledge is the first
+    step to leading a healthy lifestyle.</i></p>
+  </div>
 
   <div id=row>
     <div id=column>
-      <div class="w3-content w3-section" style="margin:0;">
-        <img class="myImgs" src="pres1.jpg">
-        <img class="myImgs" src="pres2.jpg">
+      <div class="w3-content w3-section" style="margin:0;" width = "100vw">
+        <img class="myImgs" src="pres1.jpg" >
+        <img class="myImgs" src="pres2.jpg" >
         <img class="myImgs" src="pres3.jpg" >
         <img class="myImgs" src="pres4.jpg" >
         <img class="myImgs" src="pres5.jpg" >
@@ -36,18 +49,9 @@
         <img class="myImgs" src="pres8.jpg" >
       </div>
     </div>
-
-    <div id=column2><h2> About us </h2><p><i>
-      The goal of Citizen Scientist is to gamify and democratize scientific research by
-      providing a curated news feed of relevant medical knowledge and clinical trials to
-      patients around the globe. We strive to empower human beings to make their own health-conscious decisions. We believe that access to such knowledge is the first
-      step to leading a healthy lifestyle.</i></p>
-    </div>
-
   </div>
 
-  <!-- Login Button -->
-  <div class="loginButton"><button> Login/SignUp </button></div>
+
 
 
   <a href="http://facebook.com" target="_blank"/>
@@ -66,7 +70,7 @@
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}
     x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 2000); // Change image every 20 seconds
+    setTimeout(carousel, 10000); // Change image every 20 seconds
   }
   </script>
   </html>
