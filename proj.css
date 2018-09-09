@@ -93,15 +93,18 @@ h1{
   background-color: #fff;
   color: blue;
 }
-
+#temp {
+  background-color:
+}
 div.centers{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-div.conditons{
+div.conditions{
   background-color: yellow;
-  width: 100%;
   overflow: scroll;
+  width: 110px;
+  height: 110px;
 }
