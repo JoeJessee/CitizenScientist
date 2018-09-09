@@ -37,9 +37,9 @@ body{
   text-align: center;
 }
 
-#myImgs{
-  width: 10%;
-  height:10%;
+.myImgs{
+  width: 100%;
+  height:100%;
 }
 
 #aboutus{
@@ -75,11 +75,13 @@ h1{
 }
 
 .loginButton {
-      padding: 40px;
+      padding: 20px 40px;
       border-radius: 4rem;
+      text-decoration: none;
       width: 10vw;
       background-color: blue;
       text-align: center;
+      color: #fff;
       margin-left: auto;
       margin-right: auto;
       transform: scale(.80);
@@ -88,13 +90,10 @@ h1{
 
 .loginButton:hover {
   transform: scale(1);
+  background-color:#fff;
+  color: blue;
 }
 
 div.centers{
   display: block;
-   margin-left: auto;
-   margin-right:auto;
- width: auto;
- height: auto;
-
 }
