@@ -75,10 +75,10 @@ h1{
 }
 
 .loginButton {
-      padding: 20px 40px;
+      padding: 40px 40px;
       border-radius: 4rem;
       text-decoration: none;
-      width: 10vw;
+      width: 20vw;
       background-color: blue;
       text-align: center;
       color: #fff;
